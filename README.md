@@ -1,6 +1,6 @@
 # RAG_CYBERDETCTIONFINAL
 
-## DataSet prepared by scraping -Beautiful spup, news paper3k
+## DataSet prepared by scraping -Beautiful soup, news paper3k
 ## Questions generated -LLaMA
 ## Annotation- XGBoost, Spacy, random forest
 ## BertQA model
