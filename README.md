@@ -1,4 +1,11 @@
 # RAG_CYBERDETCTIONFINAL
+
+## DataSet prepared by scraping -Beautiful spup, news paper3k
+## Questions generated -LLaMA
+## Annotation- XGBoost, Spacy, random forest
+## BertQA model
+## DistilBertQA model
+#### Referencres -AttackER paper: https://arxiv.org/pdf/2408.05149v1 ,RAG Paper: https://arxiv.org/pdf/2408.06272 
 ![Image](https://github.com/user-attachments/assets/c761ce5a-7e24-404f-850c-a5d9a80ba036)
 ![Image](https://github.com/user-attachments/assets/e76ff41d-2570-4112-bb71-eca462076bf3)
 
