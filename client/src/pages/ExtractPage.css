@@ -1,0 +1,85 @@
+/* ExtractPage.css */
+.extract-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.extract-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15), 0 0 15px rgba(0, 123, 255, 0.2); /* Added shadow and glow effect */
+    backdrop-filter: blur(8px); /* Optional: Adds blur effect to background */
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Header styling */
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1); /* Light text shadow for depth */
+}
+
+/* Styling for the input field and button container */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Small shadow for input fields */
+}
+
+input[type="text"]:focus {
+    border-color: #5f9ea0;
+    outline: none;
+    box-shadow: 0 0 5px rgba(95, 158, 160, 0.7); /* Light glow effect on focus */
+}
+
+button {
+    padding: 10px 25px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Button shadow */
+}
+
+button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25), 0 0 10px rgba(0, 123, 255, 0.5); /* Glow on hover */
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    box-shadow: none; /* Remove shadow when disabled */
+}
+
+/* Adding space at the bottom for clarity */
+form {
+    margin-bottom: 20px;
+}

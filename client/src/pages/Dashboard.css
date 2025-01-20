@@ -1,0 +1,100 @@
+/* Dashboard.css */
+
+/* General styling for the dashboard container */
+.dashboard {
+    text-align: center; /* Centers text */
+    color: white; /* Sets text color for the entire dashboard */
+    padding: 20px; /* Adds padding around the dashboard */
+}
+.details{
+    display: flex;
+}
+.alloptions {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  /* This adds spacing between each button */
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adds spacing above the buttons */
+}
+
+/* Styling for each button wrapper */
+.options {
+    width: 100%;
+    max-width: 300px;
+}
+/* Button styling */
+.option-button {
+    width: 100%;
+    padding: 15px;
+    background-color: rgba(40, 162, 38, 0.816);
+    border: 2px solid rgba(33, 186, 41, 0.733);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+}
+
+/* Hover effect for buttons */
+.option-button:hover {
+    background-color: rgba(41, 8, 58, 0.4);
+    border-color: rgba(26, 7, 42, 0.8);
+}
+
+/* Active state for buttons */
+.option-button:active {
+    transform: scale(0.98);
+    background-color: rgba(0,0,0, 0.6);
+}
+/* Styling for the dashboard heading */
+.dashboard h1 {
+    color: #34103d; /* Sets the color of the heading text */
+    margin: 20px 0; /* Adds margin around the heading */
+}
+.dashboard h3 {
+    color: #34103d; /* Sets the color of the heading text */
+    margin: 20px 0; /* Adds margin around the heading */
+}
+/* Updated Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: flex-end; /* Align navbar items to the right */
+    padding: 20px;
+    background-color: transparent; /* Semi-transparent background */
+    position: absolute; /* Positions navbar at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Styling for the navbar links (Logout) */
+.nav-button {
+    color:black; /* Sets text color for the button */
+    text-decoration: none; /* No underline */
+    margin-left: 20px; /* Space between navbar items */
+    font-size: 18px; /* Font size */
+    padding: 10px 15px; /* Padding around the button */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #27293e; /* Slightly darker background on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+/* Hover effect for the logout button */
+.nav-button:hover {
+    background-color: rgba(255, 255, 255, 0.538); /* Light background for button */
+}
+
+
+/* Hover effect for the scrape button */
+.search-bar button:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+
+/* Styling for error messages */
+.search-bar p {
+    color: red; /* Red color for error messages */
+}

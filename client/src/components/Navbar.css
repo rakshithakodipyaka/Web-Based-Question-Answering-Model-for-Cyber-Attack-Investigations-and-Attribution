@@ -1,0 +1,59 @@
+/* Navbar container */
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0; /* Align navbar to the left edge */
+  width: 100%;
+  background: transparent;
+  padding: 15px;
+  z-index: 100;
+  color: black;
+}
+
+/* Flex container for navbar items */
+.navbar-container {
+  display: flex;
+  justify-content: space-between; /* Ensure Home goes to the left and the others go to the right */
+  align-items: center;
+  width: 100%;
+  color:black
+}
+
+/* Left side (Home link) */
+.navbar-left {
+  margin-left: 20px; 
+  color: black;/* Add some space from the left edge */
+}
+
+/* Right side (Register and Login links) */
+.navbar-right {
+  display: flex;
+  gap: 30px; /* Space between Register and Login links */
+  margin-right: 20px; /* Add some space from the right edge */
+}
+
+/* Hide elements */
+.hidden {
+  display: none; /* Hide the element */
+}
+
+/* Link styles */
+.navbar-left a,
+.login-navbar-right a,
+.register-navbar-right a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color:rgb(33, 32, 32);
+  padding: 8px 15px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-weight: 500;
+}
+
+/* Hover effect for links */
+.navbar-left a:hover,
+.login-navbar-right a:hover,
+.register-navbar-right a:hover {
+  background-color: rgba(66, 24, 95, 0.2);
+  border-radius: 5px;
+  color: #f0f0f0;
+}
