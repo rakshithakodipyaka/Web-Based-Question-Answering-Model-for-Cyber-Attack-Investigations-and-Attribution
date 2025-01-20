@@ -1,6 +1,5 @@
 # RAG_CYBERDETCTIONFINAL
 ![Image](https://github.com/user-attachments/assets/c761ce5a-7e24-404f-850c-a5d9a80ba036)
-![Image](https://github.com/user-attachments/assets/c761ce5a-7e24-404f-850c-a5d9a80ba036)
 ![Image](https://github.com/user-attachments/assets/e76ff41d-2570-4112-bb71-eca462076bf3)
 
 ![Image](https://github.com/user-attachments/assets/f6a8d130-5628-4807-ba4d-d6ebec6104da)
