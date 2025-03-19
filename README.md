@@ -1,4 +1,4 @@
-# RAG_CYBERDETCTIONFINAL
+# RAG_CYBERDETCTION
 
 ## DataSet prepared by scraping -Beautiful soup, news paper3k
 ## Questions generated -LLaMA
