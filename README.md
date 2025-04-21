@@ -7,8 +7,8 @@
 ## DistilBertQA model
 #### Referencres -AttackER paper: https://arxiv.org/pdf/2408.05149v1 ,RAG Paper: https://arxiv.org/pdf/2408.06272
 # DEMO!
+https://github.com/user-attachments/assets/c3d260df-4ed4-46a5-9ea8-76fff33ccb54
 
-https://github.com/user-attachments/assets/006595ee-c136-4198-8dc7-25eb4f3f142f
 
 ## ScreenShots
 ![Image](https://github.com/user-attachments/assets/c761ce5a-7e24-404f-850c-a5d9a80ba036)
