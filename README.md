@@ -21,3 +21,8 @@
 ![Image](https://github.com/user-attachments/assets/081b3a33-a671-459b-8fb8-8eefd3c83444)
 
 ![Image](https://github.com/user-attachments/assets/6081366e-6f51-4dff-b729-e9f6dcfc6d45)
+
+
+## 🔹 Demo Video
+
+[Watch the demo](demo/CyberDetection.mp4)
