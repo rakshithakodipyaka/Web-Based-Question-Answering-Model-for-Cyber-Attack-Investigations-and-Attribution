@@ -1,0 +1,33 @@
+/* ExtractedContentPage.css */
+.extracted-content-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.extracted-content-page h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.extracted-content-page p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.content-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    max-height: 600px; /* Optional: to prevent content from overflowing */
+    overflow-y: auto; /* Adds a scroll bar if the content exceeds the container size */
+    white-space: pre-wrap; /* Preserve line breaks and spaces */
+}
+
+pre {
+    font-size: 14px;
+    white-space: pre-wrap; /* Ensures white space and line breaks are preserved */
+    word-wrap: break-word;
+}

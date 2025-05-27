@@ -1,0 +1,110 @@
+/* AttributionClassification.css */
+
+/* Container to hold both the main box and the details box */
+.attribution-classification-container {
+  margin-left: 50px;
+  display: flex; /* Flexbox to align elements side by side */
+  justify-content: space-between; /* Space between the two elements */
+  align-items: flex-start; /* Align items at the top */
+  position: relative; /* Ensure that the details box can be positioned relative to this container */
+}
+
+/* Main content box */
+.attribution-classification {
+  width: 100%; /* Main box takes 60% of the container's width */
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 10px rgba(173, 216, 230, 0.5); /* Light blue shadow */
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Main content in the attribution classification box */
+.attribution-classification h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.attribution-classification textarea {
+  width: 80%;
+  height: 100px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+.attribution-classification button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.attribution-classification button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.attribution-classification button:hover:not(:disabled) {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.classification-result {
+  margin-top: 20px;
+}
+
+.classification-result h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.classification-result ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.classification-result li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.classification-result li strong {
+  color: #333;
+}
+
+/* Details box outside the main container */
+.details-box {
+  width: 30%; /* Smaller width for the details box */
+  padding: 10px;
+  background-color: #f9f9f9; /* Very light grey background */
+  border: 1px solid #d3d3d3; /* Light grey border */
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(173, 216, 230, 0.3); /* Light blue shadow */
+  text-align: center;
+  position: relative; /* Position absolute within the container */
+  left: -30px; /* Move 30px to the left */
+  bottom: -20px; /* Move 20px down */
+}
+
+.details-box h4 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.details-box p {
+  font-size: 16px;
+  color: #555;
+  margin: 5px 0;
+}
