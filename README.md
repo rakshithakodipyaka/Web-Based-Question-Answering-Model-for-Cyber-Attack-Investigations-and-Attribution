@@ -25,4 +25,4 @@
 
 ## 🔹 Demo Video
 
-[Watch the demo](demo/CyberDetection.mp4](https://drive.google.com/drive/my-drive))
+[Watch the demo](https://drive.google.com/file/d/1wDlxMcXtBzA1v-t8S6dUPdcv_-fu0_S5/view?usp=drive_link)
